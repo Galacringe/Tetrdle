@@ -17,6 +17,7 @@ fetch("words.txt")
 .then(response => response.text())
 .then(TEXT => word = TEXT.toString().split("\n") );
 let colorstack = [];
+select_new_answer(word);
 
 // Score Variables
 let score = 0;
