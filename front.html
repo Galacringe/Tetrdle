@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <style>
+            .logo:hover{
+                transform: scale(1.03);
+            }
+            .wordbox:hover{
+                transform: rotate(15deg);
+            }
+        </style>
+        <meta charset = "UTF-8">
+        <title class = "title">Tetrdle</title>
+
+
+
+        <link rel="favicon" href="./favicon.ico">
+        <img src = "logo.png" width="338" height="166" class = "logo">
+
+        <div id = "scorebox" style="width:330px; height:65px; border:2px solid black;
+        position: fixed; left: 360px; top: 10px;"><a id = "score">0</a></div>
+
+        <!-- input field -->
+        <div id = "inputfield" style="position: fixed;left: 360px; top: 100px;">
+            <a class = "ipt" id = "i1">[ ]</a> 
+            <a class = "ipt" id = "i2">[ ]</a> 
+            <a class = "ipt" id = "i3">[ ]</a> 
+            <a class = "ipt" id = "i4">[ ]</a> 
+            <a class = "ipt" id = "i5">[ ]</a>    
+        </div>        
+    </head>
+
+    <body>   
+        <!-- 1층  -->
+        <div class= "wordbox" id="box1"; style="left: 58px; top: 200px;">
+            <div class = "wordslot"; id="1"></div></div>
+
+        <div class= "wordbox" id="box2"; style="position: fixed; left: 158px; top: 200px;">
+            <div class = "wordslot"; id="2"></div></div>
+
+        <div class= "wordbox" id="box3"; style="position: fixed; left: 258px; top: 200px;">
+            <div class = "wordslot"; id="3"></div></div>
+
+        <div class= "wordbox" id="box4"; style="position: fixed; left: 358px; top: 200px;">
+            <div class = "wordslot"; id="4"></div></div>
+
+        <div class= "wordbox" id="box5"; style="position: fixed; left: 458px; top: 200px;">
+            <div class = "wordslot"; id="5"></div></div>
+            
+        <!-- 2층 -->
+        <div class= "wordbox" id="box6"; style="position: fixed; left: 58px; top: 300px;">
+            <div class = "wordslot"; id="6"></div></div>
+
+        <div class= "wordbox" id="box7"; style="position: fixed; left: 158px; top: 300px;">
+            <div class = "wordslot"; id="7"></div></div>
+
+        <div class= "wordbox" id="box8"; style="position: fixed; left: 258px; top: 300px;">
+            <div class = "wordslot"; id="8"></div></div>
+
+        <div class= "wordbox" id="box9"; style="position: fixed; left: 358px; top: 300px;">
+            <div class = "wordslot"; id="9"></div></div>
+
+        <div class= "wordbox" id="box10"; style="position: fixed; left: 458px; top: 300px;">
+            <div class = "wordslot"; id="10"></div></div>
+
+                <!-- 3층 -->
+        <div class= "wordbox" id="box11"; style="position: fixed; left: 58px; top: 400px;">
+            <div class = "wordslot"; id="11"></div></div>
+
+        <div class= "wordbox" id="box12"; style="position: fixed; left: 158px; top: 400px;">
+            <div class = "wordslot"; id="12"></div></div>
+
+        <div class= "wordbox" id="box13"; style="position: fixed; left: 258px; top: 400px;">
+            <div class = "wordslot"; id="13"></div></div>
+
+        <div class= "wordbox" id="box14"; style="position: fixed; left: 358px; top: 400px;">
+            <div class = "wordslot"; id="14"></div></div>
+
+        <div class= "wordbox" id="box15"; style="position: fixed; left: 458px; top: 400px;">
+            <div class = "wordslot"; id="15"></div></div>
+
+            <!-- 4층 -->
+        <div class= "wordbox" id="box16"; style="position: fixed; left: 58px; top: 500px;">
+            <div class = "wordslot"; id="16"></div></div>
+
+        <div class= "wordbox" id="box17"; style="position: fixed; left: 158px; top: 500px;">
+            <div class = "wordslot"; id="17"></div></div>
+
+        <div class= "wordbox" id="box18"; style="position: fixed; left: 258px; top: 500px;">
+            <div class = "wordslot"; id="18"></div></div>
+
+        <div class= "wordbox" id="box19"; style="position: fixed; left: 358px; top: 500px;">
+            <div class = "wordslot"; id="19"></div></div>
+
+        <div class= "wordbox" id="box20"; style="position: fixed; left: 458px; top: 500px;">
+            <div class = "wordslot"; id="20"></div></div>
+
+        <!-- 5층 -->
+        <div class= "wordbox" id="box21"; style="position: fixed; left: 58px; top: 600px;">
+            <div class = "wordslot"; id="21"></div></div>
+
+        <div class= "wordbox" id="box22"; style="position: fixed; left: 158px; top: 600px;">
+            <div class = "wordslot"; id="22"></div></div>
+
+        <div class= "wordbox" id="box23"; style="position: fixed; left: 258px; top: 600px;">
+            <div class = "wordslot"; id="23"></div></div>
+
+        <div class= "wordbox" id="box24"; style="position: fixed; left: 358px; top: 600px;">
+            <div class = "wordslot"; id="24"></div></div>
+
+        <div class= "wordbox" id="box25"; style="position: fixed; left: 458px; top: 600px;">
+            <div class = "wordslot"; id="25"></div></div>
+
+        <!-- 6층 -->
+        <div class= "wordbox" id="box26"; style="position: fixed; left: 58px; top: 700px;">
+            <div class = "wordslot"; id="26"></div></div>
+
+        <div class= "wordbox" id="box27"; style="position: fixed; left: 158px; top: 700px;">
+            <div class = "wordslot"; id="27"></div></div>
+
+        <div class= "wordbox" id="box28"; style="position: fixed; left: 258px; top: 700px;">
+            <div class = "wordslot"; id="28"></div></div>
+
+        <div class= "wordbox" id="box29"; style="position: fixed; left: 358px; top: 700px;">
+            <div class = "wordslot"; id="29"></div></div>
+
+        <div class= "wordbox" id="box30"; style="position: fixed; left: 458px; top: 700px;">
+            <div class = "wordslot"; id="30"></div></div>
+
+        <!-- 7층 -->
+        <div class= "wordbox" id="box31"; style="position: fixed; left: 58px; top: 800px;">
+            <div class = "wordslot"; id="31"></div></div>
+
+        <div class= "wordbox" id="box32"; style="position: fixed; left: 158px; top: 800px;">
+            <div class = "wordslot"; id="32"></div></div>
+
+        <div class= "wordbox" id="box33"; style="position: fixed; left: 258px; top: 800px;">
+            <div class = "wordslot"; id="33"></div></div>
+
+        <div class= "wordbox" id="box34"; style="position: fixed; left: 358px; top: 800px;">
+            <div class = "wordslot"; id="34"></div></div>
+
+        <div class= "wordbox" id="box35"; style="position: fixed; left: 458px; top: 800px;">
+            <div class = "wordslot"; id="35"></div></div>
+
+        <script src = "test.js"></script>
+        <link rel="stylesheet" href="test.css">
+    </body>
+</html>

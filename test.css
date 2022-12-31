@@ -1,0 +1,31 @@
+body {
+background-color: ghostwhite;
+}
+.wordslot {
+    font-size: 3.0rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
+.wordbox {
+    transition: all ease-in-out 1s;
+
+    position: fixed;
+    width:65px; height:65px; border:3px solid lightgray;
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+    background-color: ghostwhite;
+    color: white;
+}
+
+#score {
+    color: white;
+    font-size: 3.0rem;
+}
+#scorebox {
+    border-radius: 10px 10px 10px 10px / 10px 10px 10px 10px;
+    background-color: black;
+    text-align: right;
+}
+#inputfield {
+    font-size: 2.0rem;
+}
