@@ -15,9 +15,9 @@ var files, word, answer, answer_address;
 String(word);
 fetch("words.txt")
 .then(response => response.text())
-.then(TEXT => {word = TEXT.toString().split("\r\n"); select_new_answer(word)} );
+.then(TEXT => {wordddd = TEXT.toString().split("\r\n"); select_new_answer(word)} );
 let colorstack = [];
-word = word.split("\n");
+word = wordddd.split("\n");
 console.log(word);
 select_new_answer(word);
 
