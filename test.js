@@ -15,7 +15,7 @@ var files, word, wordddd, answer, answer_address;
 String(word);
 fetch("words.txt")
 .then(response => response.text())
-.then(TEXT => word = TEXT.toString().split("\r\n") );
+.then(TEXT => word = TEXT.toString().split("\n") );
 let colorstack = [];
 
 // Score Variables
