@@ -11,11 +11,11 @@ const regex = /^[a-z|A-Z]+$/
 
 // File Variables
 var alphabet = 'abcdefghijklmnopqrstuwxyz'
-var files, word, answer, answer_address;
+var files, word, wordddd, answer, answer_address;
 String(word);
 fetch("words.txt")
 .then(response => response.text())
-.then(TEXT => {wordddd = TEXT.toString().split("\r\n"); select_new_answer(word)} );
+.then(TEXT => wordddd = TEXT.toString().split("\r\n") );
 let colorstack = [];
 word = wordddd.split("\n");
 console.log(word);
