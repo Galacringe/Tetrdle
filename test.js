@@ -14,7 +14,7 @@ var alphabet = 'abcdefghijklmnopqrstuwxyz'
 var files, word, answer, answer_address;
 String(word);
 fetch("words.txt")
-.then(response => {response.text(); console.log(word)})
+.then(response => response.text();)
 .then(TEXT => {word = TEXT.toString().split("\r\n"); select_new_answer(word)} );
 let colorstack = [];
 
