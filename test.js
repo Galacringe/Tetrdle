@@ -38,7 +38,7 @@ function alphabet_at(letter){
             return asdf;
         }
     }
-    alert("alphabet null");
+    console.log("alphabet null");
     return null;
 }
 
