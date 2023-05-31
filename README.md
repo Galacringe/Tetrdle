@@ -1,5 +1,5 @@
 # Tetrdle
-a minigame made by galakrond, based on Tetris + Wordle
+a minigame made by galakrond, based on Tetris + Wordle with JavaScript + HTML
 
 -- Playable Site --  
 https://tetrdle.netlify.app/
